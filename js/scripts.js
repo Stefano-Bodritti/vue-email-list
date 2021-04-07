@@ -6,7 +6,8 @@ var app = new Vue (
   {
     el: "#root",
     data: {
-      mailList: []
+      mailList: [],
+      visible: false
     },
     mounted: function () {
       for (let i = 0; i < 10; i++) {

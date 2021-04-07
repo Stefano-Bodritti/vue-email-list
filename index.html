@@ -13,7 +13,8 @@
   <body>
     <div id="root">
       <h1>Lista randomica di email</h1>
-      <ol>
+      <button type="button" name="button" @click="visible = true" v-show="!visible">Genera!</button>
+      <ol v-show="visible">
         <li v-for="mail in mailList">{{mail}}</li>
       </ol>
     </div>
