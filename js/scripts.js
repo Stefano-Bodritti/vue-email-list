@@ -15,7 +15,7 @@ var app = new Vue (
           this.mailList.push(risposta.data.response);
         });
       }
-      console.log(this.mailList);
+      // console.log(this.mailList);
     }
   }
 );
